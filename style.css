@@ -1,0 +1,94 @@
+    body {
+        font-family: 'Mate SC', serif;
+        margin: 0px;
+    }
+    
+    h1 {
+        font-size: 35px;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+    
+    #Highlighter {
+        color: orange;
+    }
+    
+    .half-width {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        padding: 2%;
+    }
+    
+    .half-width img {
+        width: 85%;
+        margin-left: 25px;
+    }
+    
+    #description {
+        font-size: 16px;
+        font-weight: 200;
+        text-align: justify;
+    }
+    
+    section {
+        height: 500px;
+        padding-bottom: 10px;
+    }
+    
+    .Hero {
+        background-image: url("images/top-banner.png");
+        background-repeat: no-repeat;
+    }
+    
+    .hero2 {
+        background-image: url("images/dream-bg.png");
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    
+    .button_hire {
+        text-decoration: none;
+        background: linear-gradient(90deg, rgba(235, 167, 31, 1) 0%, rgba(255, 91, 102, 1) 63%);
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-weight: 700;
+    }
+    
+    p {
+        color: dimgray;
+    }
+    
+    .Exp_Section {
+        height: 500px;
+        background-image: url(images/exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    
+    .single-element {
+        box-shadow: 10px 10px 45px gray;
+        border-radius: 6px;
+        height: 50%;
+        background-color: white;
+    }
+    
+    #fullstack {
+        border-left: 4px solid;
+        border-image: linear-gradient(180deg, tomato, salmon);
+        border-image-slice: 1;
+    }
+    
+    #UX {
+        border-left: 4px solid;
+        border-image: linear-gradient(180deg, rgb(71, 203, 255), rgb(214, 250, 114));
+        border-image-slice: 1;
+    }
+    
+    footer p {
+        text-align: center;
+        color: black;
+    }
